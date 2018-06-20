@@ -1,6 +1,6 @@
 # Connect 4
 
-[Live Version]()
+[Live Version]( https://jiangtt18.github.io/connect-four/)
 
 
 # Description
@@ -18,6 +18,9 @@ applied to fit the game environment with limited time offered.
 
 ### Webpack
 Game files were separated into Board, ComputerPlayer and Game. Each file handled its own logic to keep the code reusable and manageable. Webpack was used to bundle up different files and export all in the program.
+
+### Canvas
+The board and disc were drew by canvas.
 
 # Future Direction
 * Develop algorithm to detect winning move for the computer player
