@@ -12,14 +12,14 @@ Connect Four is a two-player connection game in which the human players and comp
 
 # Technologies
 ### Javascript
-This game was primarily made with basic Javascript.  
+This game was primarily made with Javascript.  
 
 ### HTML5/CSS3
 All stylings used CSS3 with HTML5. Simplicity and minimalism style were
-applied to fit the game environment with limited time offered.
+applied to fit the game environment due to limited time offered.
 
 ### Webpack
-Game files were separated into Board, ComputerPlayer and Game. Each file handled its own logic to keep the code reusable and manageable. Webpack was used to bundle up different files and export all in the program.
+The game framework was separated into Board, ComputerPlayer and Game. Each file handled its own logic to keep the code reusable and manageable. Webpack was used to bundle up different files and export all in the program.
 
 ### Canvas
 The board and disc were drew by canvas.
