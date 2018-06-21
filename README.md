@@ -7,7 +7,7 @@
 
 # Description
 
-Connect Four is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column.
+Connect Four is a two-player connection game in which the human players and computer player take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column.
 
 
 # Technologies
