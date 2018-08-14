@@ -3,38 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Javascript Project!</title>
+    <link rel="stylesheet" href="./asset/reset.css">
     <link rel="stylesheet" href="./asset/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gaegu|Jua" rel="stylesheet">
   </head>
 
   <body>
-
-    <h1 class="game-title">Connect 4</h1>
-
-    <div class="main-section">
-      <div class="instructions">
-        <h2 class="instruct-heading">Instructions </h2>
-        <li>Click on the Column you want to drop your disc </li>
-        <li>Goal: Beat the computerPlayer - Poshmark by connecting four
-           of red colored discs in a row. This can be done horizontally,
-           vertically or diagonally
-        </li>
+    <div class='container'>
+      <div class="title">
+        <strong>Why</strong> KiwiCo?
       </div>
 
-      <canvas id="canvas" width="560" height="480">Canvas is not working</canvas>
-      <script type="text/javascript" src="lib/bundle.js"></script>
+
+      <ul class="reasons">
+        <li class="ract" id='convenient'>Convenient</li>
+        <li class='bigSqr' id='creativity'>Sparks Creativity</li>
+        <li class="ract" id='educational'>Educational</li>
+        <li class="ract" id='family'>Family Time</li>
+        <li class="smallSqr" id='fun'>Fun</li>
+        <li class="bigRect" id='alternative'>Alternative to Screen Time</li>
+      </ul>
+
+      <div class="comments">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+
+
     </div>
+    <script type="text/javascript" src="./lib/bundle.js" >
+
+      // let b = document.getElementById('convenient');
+      // b.onclick = function(){
+      //   console.log('u')
+      // }
+      //
+
+    </script>
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <a href="https://github.com/jiangtt18/connect-four">
         <i class="fab fa-github"></i>
       </a>
       <a href="https://www.linkedin.com/in/jiangtt/">
         <i class="fab fa-linkedin"></i>
       </a>
-    </footer>
+    </footer> -->
   </body>
 
 </html>
