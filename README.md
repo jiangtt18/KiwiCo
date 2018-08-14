@@ -2,7 +2,7 @@
 
 ![Index](./asset/images/connect4.gif)
 
-[Live Version]( https://jiangtt18.github.io/connect-four/)
+[Live Version](https://jiangtt18.github.io/KiwiCo/)
 
 
 # Description
