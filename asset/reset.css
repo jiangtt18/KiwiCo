@@ -1,9 +1,5 @@
 
-/* html, body, header, nav, h1, a,
-ul, li, strong, main, button, i,
-section, img, h2, p, form,
-fieldset, label, input, textarea,
-span, article, footer, time, small {
+h2,h5,img {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,7 +11,7 @@ span, article, footer, time, small {
   vertical-align: inherit;
   box-sizing: inherit;
   background: transparent;
-} */
+}
 
 menu, ol, ul, li {
   padding: 0;
