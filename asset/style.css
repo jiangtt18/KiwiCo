@@ -60,7 +60,7 @@ li h5 {
 }
 
 
-li:hover, li:active {
+li:hover, li:active{
   background-color: #25BDBE;
   color: white;
 }
@@ -78,35 +78,35 @@ li:hover, li:active {
   overflow: hidden;
 }
 
+
+
 .icon-convenient{
-  background-position: 3px 5px;
+  /* background-position: 3px 5px; */
 }
 
 
 .icon-creativity{
   width: 32px;
   height: 30px;
-  background-position: -38px 5px;
+
 }
 
 .icon-educational{
   width: 38px;
-  background-position: -66px 5px;
 }
 
 .icon-family{
-  background-position: -100px 5px;
+
 }
 
 .icon-fun{
   height: 30px;
-  background-position: -140px 5px;
+
 
 }
 
 .icon-alternative{
   height: 30px;
-  background-position: -180px 5px;
 }
 
 .ract{
